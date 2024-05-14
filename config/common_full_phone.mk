@@ -17,8 +17,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode?=true
 
 # GMS
-WITH_GMS := true
-$(call inherit-product, vendor/gms/products/gms.mk)
+# WITH_GMS := true
+# $(call inherit-product, vendor/gms/products/gms.mk)
 
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
